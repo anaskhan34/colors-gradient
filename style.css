@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system,'Segoe UI', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #FDE119, #809AF1)
+
+}
+
+.main{
+    width: 20rem;
+    height: 20rem;
+    margin: 0 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+
+h1{
+    margin-bottom: 2rem;
+    font-weight: 900;
+    text-shadow: 1.1px 1.1px 1px;
+    font-size: 1.8rem;
+}
+
+button{
+    padding: 3px 8px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1.3rem;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-image: linear-gradient(to right, #FDE119, #809AF1)
+    
+}
+
+p{
+    height: 3rem;
+    width: 18rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-left: 3px solid green;
+    padding-left: 0.3rem;
+    background-color: rgba(25, 197, 76, 0.332);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    margin-top: 1.4rem;
+}
+
+h4{
+    margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    .main {
+        width: 95vw;
+        height: auto;
+        padding: 1.5rem 0.5rem;
+    }
+    h1 {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+    button {
+        font-size: 1rem;
+        padding: 2px 6px;
+        margin-bottom: 1rem;
+    }
+    p {
+        width: 90vw;
+        font-size: 0.95rem;
+        padding-left: 0.2rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .main {
+        width: 100vw;
+        padding: 1rem 0.2rem;
+    }
+    h1 {
+        font-size: 1rem;
+    }
+    p {
+        width: 95vw;
+        font-size: 0.9rem;
+    }
+}
